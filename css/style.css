@@ -4,19 +4,23 @@ body {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 3.2rem;
   font-family:'Libre Baskerville', serif;
+  font-weight: bold;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-family: 'Libre Baskerville', serif;
+  line-height: 1.3;
 }
 
 p,
 span,
-li {
-  font-family: "Lato", sans-serif;
+li,
+a {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.8;
 }
 
 .header {
@@ -60,15 +64,124 @@ a {
   text-decoration: none;
   color: inherit;
   display: inline-block;
-  padding: 10px;
-  border-radius: 30px;
+  padding: 8px;
+  border-radius: 20px;
 }
 .sign-in a {
   background-color: #3298B2;
   color: #FFF9B3;
+  font-weight: bold;
 }
 a:hover {
   color: #FFF9B3;
-  transition: all 450ms ease-out 0.195s;
+  transition: color 450ms ease-out 0.195s;
+}
+.button a:hover,
+.nav-bar a:hover {
   background-color: #33CFE3;
+  transition: all 450ms ease-out 0.195s;
+}
+
+.highlighted {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2rem 1.5rem;
+  background-color: rgba(20, 166, 204, 0.10);
+  width: 100%;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding-right: 1.5rem;
+}
+.image-container img {
+  display: block;
+  overflow: hidden;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+
+.text-item {
+  padding-bottom:1.5rem;
+}
+
+.button .sign-in a{
+  width: 75%;
+  text-align: center;
+}
+
+.info {
+  background-color: white;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 1.5rem 2rem 1.5rem;
+  width: 100%;
+}
+
+.info .image-container {
+  padding-top: 1rem;
+}
+
+.citation{
+  padding-bottom: 0;
+  font-weight: bold;
+}
+
+.thumbnail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 40%;
+  height: 100%;
+  border-left: 1.5px solid rgba(20, 166, 204, 0.10);
+}
+
+.thumbnail {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.thumbnail:hover{
+  background-color: #FFF9B3;
+  transition: all 750ms ease-in;
+}
+
+.main {
+  background-color: rgba(20, 166, 204, 0.10);
+}
+
+.thumbnail .image-container {
+  width: 35%;
+  height: auto;
+  padding: 1rem;
+}
+
+.thumbnail .text-item {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-item a {
+  text-decoration: none;
+  color: #33CFE3;
+  display: inline-block;
+  padding: 0;
+}
+
+.text-item a:hover {
+    color: #3298B2;
+    transition: color 450ms ease-out;
 }
