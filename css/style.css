@@ -94,7 +94,6 @@ a {
   align-items: center;
   padding: 2rem 1.5rem;
   background-color: rgba(20, 166, 204, 0.40);
-  width: 100%;
 }
 
 .image-container {
@@ -132,7 +131,6 @@ a {
   display: flex;
   flex-direction: row;
   padding: 1rem 1.5rem 2rem 1.5rem;
-  width: 100%;
 }
 
 .info .image-container {
@@ -247,7 +245,6 @@ a {
   display: flex;
   flex-direction: row;
   padding: 1rem 1.5rem 2rem 1.5rem;
-  width: 100%;
 }
 
 .image-container video {
