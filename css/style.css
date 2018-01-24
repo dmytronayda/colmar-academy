@@ -72,14 +72,20 @@ a {
   color: #FFF9B3;
   font-weight: bold;
 }
-a:hover {
-  color: #FFF9B3;
+/* a:hover { */
+  /* color: #FFF9B3; */
+  /* transition: color 450ms ease-out 0.195s; */
+/* } */
+
+.nav-bar a:hover {
+  color: #196A7F;
   transition: color 450ms ease-out 0.195s;
 }
 .button a:hover,
-.nav-bar a:hover {
+.sign-in a:hover {
   background-color: #33CFE3;
   transition: all 450ms ease-out 0.195s;
+  color: #FFF9B3;
 }
 
 .highlighted {
@@ -87,7 +93,7 @@ a:hover {
   flex-direction: row;
   align-items: center;
   padding: 2rem 1.5rem;
-  background-color: rgba(20, 166, 204, 0.10);
+  background-color: rgba(20, 166, 204, 0.20);
   width: 100%;
 }
 
@@ -95,6 +101,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   width: 60%;
+  height: auto;
   padding-right: 1.5rem;
 }
 .image-container img {
@@ -150,15 +157,16 @@ a:hover {
   width: 100%;
   display: flex;
   flex-direction: row;
+
 }
 
 .thumbnail:hover{
-  background-color: #FFF9B3;
+  background-color: rgba(20, 166, 204, 0.30);
   transition: all 750ms ease-in;
 }
 
 .main {
-  background-color: rgba(20, 166, 204, 0.10);
+  background-color: rgba(20, 166, 204, 0.20);
 }
 
 .thumbnail .image-container {
@@ -172,6 +180,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-right: 3rem; 
 }
 
 .text-item a {
@@ -184,4 +193,40 @@ a:hover {
 .text-item a:hover {
     color: #3298B2;
     transition: color 450ms ease-out;
+}
+
+.subjects-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(20, 166, 204, 0.20);
+}
+.title {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0 1rem 0;
+}
+.subjects-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 4.5rem;
+}
+
+.subject {
+  background-color: white;
+  max-width: 30%;
+  margin: 1rem;
+}
+
+.subject .image-container {
+  height: auto;
+  width: 100%;
+}
+
+.subject .text-item {
+  padding: 1rem;
+  line-height: 2rem;
 }
