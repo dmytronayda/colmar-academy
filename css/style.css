@@ -79,7 +79,7 @@ a {
 
 .nav-bar a:hover {
   color: #196A7F;
-  transition: color 450ms ease-out 0.195s;
+  transition: all 750ms ease-in 100ms;
 }
 .button a:hover,
 .sign-in a:hover {
@@ -180,7 +180,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-right: 3rem; 
+  padding-right: 3rem;
 }
 
 .text-item a {
@@ -219,6 +219,11 @@ a {
   background-color: white;
   max-width: 30%;
   margin: 1rem;
+}
+
+.subject:hover {
+  background-color: rgba(20, 166, 204, 0.30);
+  transition: all 750ms ease-in;
 }
 
 .subject .image-container {
