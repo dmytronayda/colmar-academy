@@ -93,15 +93,15 @@ a {
   flex-direction: row;
   align-items: center;
   padding: 2rem 1.5rem;
-  background-color: rgba(20, 166, 204, 0.20);
+  background-color: rgba(20, 166, 204, 0.40);
   width: 100%;
 }
 
 .image-container {
   display: flex;
   flex-direction: column;
+
   width: 60%;
-  height: auto;
   padding-right: 1.5rem;
 }
 .image-container img {
@@ -161,12 +161,12 @@ a {
 }
 
 .thumbnail:hover{
-  background-color: rgba(20, 166, 204, 0.30);
+  background-color: rgba(20, 166, 204, 0.40);
   transition: all 750ms ease-in;
 }
 
 .main {
-  background-color: rgba(20, 166, 204, 0.20);
+  background-color: rgba(20, 166, 204, 0.40);
 }
 
 .thumbnail .image-container {
@@ -200,7 +200,7 @@ a {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background-color: rgba(20, 166, 204, 0.20);
+  background-color: rgba(20, 166, 204, 0.40);
 }
 .title {
   display: flex;
@@ -212,17 +212,23 @@ a {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 0 4.5rem;
+  padding: 0 4.5rem 1rem 4.5rem;
 }
 
 .subject {
   background-color: white;
   max-width: 30%;
   margin: 1rem;
+  position: relative;
+}
+
+.subject a {
+  position: absolute;
+  height: 100%;
 }
 
 .subject:hover {
-  background-color: rgba(20, 166, 204, 0.30);
+  background-color: rgba(20, 166, 204, 0.40);
   transition: all 750ms ease-in;
 }
 
@@ -234,4 +240,25 @@ a {
 .subject .text-item {
   padding: 1rem;
   line-height: 2rem;
+}
+
+.thesis-section {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 1.5rem 2rem 1.5rem;
+  width: 100%;
+}
+
+.image-container video {
+  display: flex;
+  width: 100%;
+  padding-top: 1rem;
+}
+
+.footer {
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1.5px solid rgba(20, 166, 204, 0.10);
 }
