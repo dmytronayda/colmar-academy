@@ -32,7 +32,7 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 0 1.5rem;
-  box-shadow: 0 0 2rem black;
+  box-shadow: 0 0 1rem #1C3144;
   z-index: 10;
 }
 
@@ -306,4 +306,97 @@ img {
   justify-content: space-between;
   border-top: 1.5px solid rgba(20, 166, 204, 0.10);
   background-color: #6290C3;
+}
+
+.mobile{
+  display: none;
+
+}
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  p,
+  span,
+  li,
+  a {
+    line-height: 1.4;
+  }
+
+  .header .logo-and-univ-name,
+  .header .nav-bar  {
+    display: none;
+  }
+  .header {
+    padding: 0;
+    position: fixed;
+    align-items: center;
+  }
+  .mobile {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .mobile ul {
+    display: flex;
+    align-items: center;
+  }
+  .highlighted {
+    flex-direction: column;
+    padding: 4rem 0 0 0;
+  }
+  .highlighted .image-container {
+    width: 100%;
+    padding: 0;
+  }
+
+  .highlighted .text-container {
+    padding: 0 1rem 2rem 1rem;
+  }
+  .text-container .button {
+    flex-direction: row;
+    justify-content:center;
+  }
+  .button .sign-in {
+    width: 100%;
+  }
+  .button a{
+    padding: 1rem;
+  }
+
+  .sign-in a:active {
+    background-color: #1E3241;
+    transition: all 450ms ease-in 0.295s;
+    color: #C1CFDE;
+  }
+
+  .info .desktop {
+    display: none;
+  }
+  .info {
+    padding: 1rem;
+  }
+  .thumbnail-container {
+    width: 100%;
+    border-left: none;
+  }
+  .thumbnail {
+    flex-direction: column;
+    margin: 2px;
+  }
+
+  #pic {
+    display: none;
+  }
+  .thumbnail .text-item {
+    padding: 1rem;
+  }
+  .text-item {
+    width: 100%;
+  }
 }
