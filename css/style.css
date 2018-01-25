@@ -265,10 +265,6 @@ img {
   position: relative;
 }
 
-.subject a {
-  position: absolute;
-  height: 100%;
-}
 
 .subject:hover {
   background-color: #0B3142;
@@ -399,4 +395,29 @@ img {
   .text-item {
     width: 100%;
   }
+
+  .subjects-container {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding: 0 0 2rem 0;
+  }
+  .subject .image-container,
+  .subject img,
+  .subject span,
+  .subject p {
+    display: none;
+  }
+  .title {
+    padding-bottom: 0;
+  }
+
+  .subject {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 1rem 0 1rem;
+  }
+
+
 }
