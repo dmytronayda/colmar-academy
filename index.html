@@ -2,71 +2,75 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Colmar Academy - Main</title>
+    <title>Colmar Academy</title>
     <link rel="stylesheet" type="text/css" href="./css/reset.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Roboto:400,700" rel="stylesheet">
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
   </head>
   <body>
 
     <!-- Header and Navigation -->
-    <div class="header">
-      <div class="logo-and-univ-name">
-        <div class="logo">
-          <img src="./images/ic-logo.svg" alt="colmar-academy-logo">
+    <header>
+      <div class="header">
+        <div class="logo-and-univ-name">
+          <div class="logo">
+            <img role="presentation"  src="./images/ic-logo.svg" alt="colmar-academy-logo">
+          </div>
+          <div class="univ-name desktop">
+            <span><h2>Colmar</h2></span>
+            <h2>Academy</h2>
+          </div>
         </div>
-        <div class="univ-name desktop">
-          <span><h2>Colmar</h2></span>
-          <h2>Academy</h2>
+        <div class="nav-bar">
+          <nav>
+            <ul role="presentation">
+              <li><a href="#" role="menuitem">On campus</a></li>
+              <li><a href="#" role="menuitem">Online</a></li>
+              <li><a href="#" role="menuitem">Our companies</a></li>
+              <span class="sign-in" role="menuitem"><li><a href="#">Sign in</a></li></span>
+            </ul>
+          </nav>
+
         </div>
-      </div>
-      <div class="nav-bar">
-        <nav>
-          <ul>
-            <li><a href="#">On campus</a></li>
-            <li><a href="#">Online</a></li>
-            <li><a href="#">Our companies</a></li>
-            <span class="sign-in"><li><a href="#">Sign in</a></li></span>
+
+        <div class="header mobile">
+          <ul role="presentation" class="mobile">
+            <li><a href="#" role="menuitem"><img role="presentation"  src="./images/ic-logo.svg" alt="colmar academy logo icon"></a></li>
+            <li><a href="#" role="menuitem"><img role="presentation"  src="./images/ic-on-campus.svg" alt="colmar academy campus icon"></a></li>
+            <li><a href="#" role="menuitem"><img role="presentation"  src="./images/ic-online.svg" alt="colmar academy online icon"></a></li>
+            <li><a href="#" role="menuitem"><img role="presentation"  src="./images/ic-login.svg" alt="colmar academy login icon"></a></li>
           </ul>
-        </nav>
-
-      </div>
-
-      <div class="header mobile">
-        <ul class="mobile">
-          <li><a href="#"><img src="./images/ic-logo.svg" alt="colmar-academy-campus-icon"></a></li>
-          <li><a href="#"><img src="./images/ic-on-campus.svg" alt="colmar-academy-campus-icon"></a></li>
-          <li><a href="#"><img src="./images/ic-online.svg" alt="colmar-academy-campus-icon"></a></li>
-          <li><a href="#"><img src="./images/ic-login.svg" alt="colmar-academy-campus-icon"></a></li>
-        </ul>
-      </div>
-
-    </div>
-    <!-- END - Header and Navigation -->
-
-    <!-- Hero section -->
-    <div class="highlighted">
-      <div class="image-container"id="banner">
-        <img src="./images/banner.jpg" alt="colmar-academy-banner">
-      </div>
-      <div class="text-container">
-        <div class="text-item">
-          <h1>Learn something new everyday</h1>
-          <br>
-          <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
         </div>
-        <div class="button">
-          <span class="sign-in"><a href="#">Start here</a></span>
+
+      </div>
+      <!-- END - Header and Navigation -->
+
+      <!-- Hero section -->
+      <div class="highlighted">
+        <div class="image-container"id="banner">
+          <img role="presentation"  src="./images/banner.jpg" alt="colmar academy banner">
+        </div>
+        <div class="text-container">
+          <div class="text-item">
+            <h1>Learn something new everyday</h1>
+            <br>
+            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+          </div>
+          <div class="button" role="link">
+            <span class="sign-in"><a href="#">Start here</a></span>
+          </div>
         </div>
       </div>
-    </div>
 
+
+    </header>
     <!-- End of Hero section -->
 
     <!-- Info section -->
     <div class="info">
       <div class="image-container desktop">
-        <img src="./images/information-main.jpg" alt="colmar-academy-information-main">
+        <img role="presentation"  src="./images/information-main.jpg" alt="colmar academy information main">
         <div class="text-container">
           <div class="text-item">
             <h1>It doesn't hurt to keep practicing</h1>
@@ -85,10 +89,10 @@
     <div class="thumbnail-container">
       <div class="thumbnail">
         <div id="pic" class="image-container">
-          <img src="./images/information-orientation.jpg" alt="colmar-academy-orientation">
+          <img role="presentation"  src="./images/information-orientation.jpg" alt="colmar academy orientation dates">
         </div>
         <div class="mobile">
-          <img src="./images/information-orientation-mobile.jpg" alt="colmar-academy-orientation">
+          <img role="presentation"  src="./images/information-orientation-mobile.jpg" alt="colmar academy orientation dates">
         </div>
         <div class="text-item">
           <h2>Orientation Date</h2>
@@ -98,10 +102,10 @@
       </div>
       <div class="thumbnail">
         <div id="pic" class="image-container">
-          <img src="./images/information-campus.jpg" alt="colmar-academy-campus">
+          <img role="presentation"  src="./images/information-campus.jpg" alt="colmar academy campus">
         </div>
         <div class="mobile">
-          <img src="./images/information-campus-mobile.jpg" alt="colmar-academy-orientation">
+          <img role="presentation"  src="./images/information-campus-mobile.jpg" alt="colmar academy campus">
         </div>
         <div class="text-item">
           <h2>Our campus</h2>
@@ -111,10 +115,10 @@
       </div>
       <div class="thumbnail">
         <div id="pic" class="image-container">
-          <img src="./images/information-guest-lecture.jpg" alt="colmar-academy-guest-lecture">
+          <img role="presentation"  src="./images/information-guest-lecture.jpg" alt="colmar academy guest lecture">
         </div>
         <div class="mobile">
-          <img src="./images/information-guest-lecture-mobile.jpg" alt="colmar-academy-orientation">
+          <img role="presentation"  src="./images/information-guest-lecture-mobile.jpg" alt="colmar academy guest lecture">
         </div>
         <div class="text-item">
           <h2>Our guest lecture</h2>
@@ -136,7 +140,7 @@
       <div class="subjects-container">
         <div class="subject">
           <div class="image-container">
-            <img src="./images/course-software.jpg" alt="colmar-academy-software-engineering">
+            <img role="presentation"  src="./images/course-software.jpg" alt="colmar academy software engineering">
           </div>
           <div class="text-item">
             <h2>Software engineering</h2>
@@ -146,7 +150,7 @@
         </div>
         <div class="subject">
           <div class="image-container">
-            <img src="./images/course-computer-art.jpg" alt="colmar-academy-computer-science">
+            <img role="presentation"  src="./images/course-computer-art.jpg" alt="colmar academy computer science">
           </div>
           <div class="text-item">
             <h2>Computer art</h2>
@@ -156,7 +160,7 @@
         </div>
         <div class="subject">
           <div class="image-container">
-            <img src="./images/course-design.jpg" alt="colmar-academy-design">
+            <img role="presentation"  src="./images/course-design.jpg" alt="colmar academy design">
           </div>
           <div class="text-item">
             <h2>Design</h2>
@@ -166,7 +170,7 @@
         </div>
         <div class="subject">
           <div class="image-container">
-            <img src="./images/course-data.jpg" alt="colmar-academy-data-analysis">
+            <img role="presentation"  src="./images/course-data.jpg" alt="colmar academy data analysis">
           </div>
           <div class="text-item">
             <h2>Data</h2>
@@ -176,7 +180,7 @@
         </div>
         <div class="subject">
           <div class="image-container">
-            <img src="./images/course-business.jpg" alt="colmar-academy-business">
+            <img role="presentation"  src="./images/course-business.jpg" alt="colmar academy business studies">
           </div>
           <div class="text-item">
             <h2>Business</h2>
@@ -186,7 +190,7 @@
         </div>
         <div class="subject">
           <div class="image-container">
-            <img src="./images/course-marketing.jpg" alt="colmar-academy-marketing">
+            <img role="presentation"  src="./images/course-marketing.jpg" alt="colmar academy marketing">
           </div>
           <div class="text-item">
             <h2>Marketing</h2>
@@ -208,7 +212,7 @@
       <div class="thesis-section">
         <div class="image-container">
           <div class="video-container">
-            <video src="./videos/thesis.mp4" autoplay loop alt="colmar-academy-thesis-video" type"video/mp4">
+            <video src="./videos/thesis.mp4" autoplay loop alt="colmar academy thesis video" type"video/mp4">
           </div>
           <div class="text-container">
               <div class="text-item">
@@ -225,7 +229,7 @@
         <div class="thumbnail-container">
           <div class="thumbnail">
             <div class="image-container">
-              <img src="./images/thesis-fisma.jpg" alt="colmar-academy-thesis-fisma">
+              <img role="presentation"  src="./images/thesis-fisma.jpg" alt="colmar academy thesis fisma">
             </div>
             <div class="text-item">
               <h2>Fisma: Design and Prototype</h2>
@@ -234,7 +238,7 @@
           </div>
           <div class="thumbnail">
             <div class="image-container">
-              <img src="./images/thesis-now-and-then.jpg" alt="colmar-academy-thesis-now-and-then">
+              <img role="presentation"  src="./images/thesis-now-and-then.jpg" alt="colmar academy thesis now and then">
             </div>
             <div class="text-item">
               <h2>Now and then</h2>
@@ -247,18 +251,20 @@
         <!-- End of Info section -->
 
       <!-- Footer -->
+      <footer>
       <div class="footer">
         <div class="copyrights">
           <span>&copy; 2016 Colmar Academy. All rights reserved</span>
         </div>
         <div class="nav-bar">
-          <ul>
+          <ul role="presentation">
             <li><a href="#">Terms</a></li>
             <li><a href="#">Privacy</a></li>
           </ul>
 
         </div>
       </div>
+      </footer>
 
       <!-- End of Footer -->
 
